@@ -1,0 +1,79 @@
+@font-face {
+  font-family: "Montserrat-Black";
+  src: url("../fonts/Montserrat/Montserrat-Black.ttf");
+}
+
+@font-face {
+  font-family: "Montserrat-Bold";
+  src: url("../fonts/Montserrat/Montserrat-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Montserrat-Regular";
+  src: url("../fonts/Montserrat/Montserrat-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Montserrat-Light";
+  src: url("../fonts/Montserrat/Montserrat-Light.ttf");
+}
+
+@font-face {
+  font-family: "Montserrat-Thin";
+  src: url("../fonts/Montserrat/Montserrat-Thin.ttf");
+}
+
+@font-face {
+  font-family: "Ubuntu-Regular";
+  src: url("../fonts/Ubuntu/Ubuntu-Regular.ttf");
+}
+/* HTML Selectors */
+body {
+  font-family: "Montserrat-Regular";
+}
+
+h1 {
+  font-family: Montserrat-Black;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: "Montserrat-Bold";
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Class Selectors */
+.title-img {
+  transform: rotate(25deg);
+}
+
+/* Navigation Bar */
+.navbar-brand {
+  font-family: Ubuntu-Regular;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-link {
+  font-family: Montserrat-Light;
+  font-size: 1.5rem;
+}
+
+/* Icons */
+.fi {
+  color: #ef8172;
+}
+
+.fi:hover {
+  color: #ff4c88;
+}
+
+/* Id Selectors */
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
