@@ -87,10 +87,15 @@ p {
   width: 10%;
 }
 
+.press-logo {
+  width: 15%;
+}
+
 /* Id Selectors */
 /* ************ */
 #title,
-#testimonials {
+#testimonials,
+#press {
   background-color: #ef8172;
   color: #fff;
 }
