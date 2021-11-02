@@ -93,9 +93,9 @@ p {
 
 /* Id Selectors */
 /* ************ */
-#title,
-#testimonials,
-#press {
+#title-sec,
+#testimonials-sec,
+#press-sec {
   background-color: #ef8172;
   color: #fff;
 }
