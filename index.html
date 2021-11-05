@@ -27,68 +27,70 @@
   </head>
 
   <body>
-    <section id="title-sec" class="pb-5">
-      <div class="container-lg">
-        <!-- Nav Bar -->
-        <nav class="navbar navbar-expand-lg navbar-dark pt-3 pb-5">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="#">tindog</a>
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <menu class="navbar-nav ms-auto">
-                <li class="nav-item px-3">
-                  <a class="nav-link" href="#">Contact</a>
-                </li>
-                <li class="nav-item px-3">
-                  <a class="nav-link" href="#">Pricing</a>
-                </li>
-                <li class="nav-item px-3">
-                  <a class="nav-link" href="#">Download</a>
-                </li>
-              </menu>
-            </div>
-          </div>
-        </nav>
+    <section class="container-fluid" id="title-sec">
+      <!-- Nav Bar -->
+      <nav class="navbar navbar-expand-lg navbar-dark pb-5">
+        <a class="navbar-brand" href="#">tindog</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <menu class="navbar-nav ms-auto">
+            <li class="nav-item px-3">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+            <li class="nav-item px-3">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <li class="nav-item px-3">
+              <a class="nav-link" href="#">Download</a>
+            </li>
+          </menu>
+        </div>
+      </nav>
 
-        <!-- Title -->
-        <section class="container">
-          <div class="row row-cols-lg-2 row-cols-md-1">
-            <div class="col pb-md-5">
-              <h1>Meet new and interesting dogs nearby.</h1>
-              <button type="button" class="btn btn-dark btn-lg">
-                <i class="fi-xnsuxl-apple"></i> Download
-              </button>
-              <button type="button" class="btn btn-outline-light btn-lg">
-                <i class="fi-xnluxl-playstore"></i> Download
-              </button>
-            </div>
-            <div class="col pt-md-5 text-center">
-              <img
-                class="title-img w-50"
-                src="images/iphone6.png"
-                alt="iphone-mockup"
-              />
-            </div>
-          </div>
-        </section>
+      <!-- Title -->
+
+      <div class="row row-cols-lg-2 row-cols-md-1">
+        <div class="col">
+          <h1 class="mb-5">Meet new and interesting dogs nearby.</h1>
+          <button type="button" class="btn btn-dark btn-lg me-5">
+            <i class="fi-xnsuxl-apple"></i> Download
+          </button>
+          <button type="button" class="btn btn-outline-light btn-lg">
+            <i class="fi-xnluxl-playstore"></i> Download
+          </button>
+        </div>
+        <div class="col">
+          <img
+            class="title-img position-absolute mx-auto d-block"
+            src="images/iphone6.png"
+            alt="iphone-mockup"
+          />
+        </div>
       </div>
     </section>
 
     <!-- Features -->
 
     <section
-      class="container mx-auto row text-center row-cols-lg-3 row-cols-md-1 py-5"
-      id="features"
+      class="
+        container-fluid
+        mx-auto
+        row
+        text-center
+        row-cols-lg-3 row-cols-md-1
+        position-relative
+      "
+      id="features-sec"
     >
       <div class="col">
         <i class="fi fi-cwsux3-check"></i>
@@ -109,7 +111,7 @@
 
     <!-- Testimonials -->
 
-    <section class="container-fluid text-center py-5" id="testimonials-sec">
+    <section class="container-fluid text-center" id="testimonials-sec">
       <div id="testimonials" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
           <button
@@ -177,26 +179,18 @@
     <!-- Press -->
 
     <section
-      class="container-fluid pb-5 row row-cols-4 mx-auto justify-content-center"
+      class="container-fluid row row-cols-4 mx-auto justify-content-evenly"
       id="press-sec"
     >
+      <img class="press-logo col" src="images/TechCrunch.png" alt="tc-logo" />
+      <img class="press-logo col" src="images/tnw.png" alt="tnw-logo" />
       <img
-        class="press-logo col mx-5 py-5"
-        src="images/TechCrunch.png"
-        alt="tc-logo"
-      />
-      <img
-        class="press-logo col mx-5 py-5"
-        src="images/tnw.png"
-        alt="tnw-logo"
-      />
-      <img
-        class="press-logo col mx-5 py-5"
+        class="press-logo col"
         src="images/bizinsider.png"
         alt="biz-insider-logo"
       />
       <img
-        class="press-logo col mx-5 py-5"
+        class="press-logo col"
         src="images/mashable.png"
         alt="mashable-logo"
       />
@@ -204,7 +198,10 @@
 
     <!-- Pricing -->
 
-    <section class="container justify-content-center py-5" id="pricing">
+    <section
+      class="container-fluid text-center justify-content-center"
+      id="pricing-sec"
+    >
       <h2>A Plan for Every Dog's Needs</h2>
       <p>Simple and affordable price plans for your and your dog.</p>
 
