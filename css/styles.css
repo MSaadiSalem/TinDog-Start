@@ -89,9 +89,22 @@ p {
   width: 15%;
 }
 
+/* Call to Action */
+.cta-h3 {
+  font-family: "Montserrat-Black";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
 /* Id Selectors */
 /* ************ */
+/* Call to Action */
 #title-sec,
+#cta {
+  color: #fff;
+  background-color: #ff4c88;
+}
+
 #testimonials-sec,
 #press-sec {
   background-color: #ef8172;
@@ -101,7 +114,8 @@ p {
 #title-sec,
 #testimonials-sec,
 #press-sec,
-#pricing-sec {
+#pricing-sec,
+#cta {
   padding: 3% 15% 7%;
 }
 
@@ -112,10 +126,15 @@ p {
   position: absolute;
 }
 
-#features-sec {
+/* Features */
+/* Footer */
+#features-sec,
+#footer {
   padding: 7% 15%;
   background-color: #fff;
 }
+
+/* Footer */
 
 /* Media Query */
 /* *********** */
