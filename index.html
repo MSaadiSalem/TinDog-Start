@@ -11,6 +11,8 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
+
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="css/styles.css" />
 
     <!-- Icons -->
@@ -59,22 +61,24 @@
 
       <!-- Title -->
 
-      <div class="row row-cols-lg-2 row-cols-md-1">
+      <div class="row row-cols-lg-2 row-cols-md-1" id="title">
         <div class="col">
           <h1 class="mb-5">Meet new and interesting dogs nearby.</h1>
-          <button type="button" class="btn btn-dark btn-lg me-5">
+          <button
+            type="button"
+            class="download-btn d-block btn btn-dark btn-lg mt-3"
+          >
             <i class="fi-xnsuxl-apple"></i> Download
           </button>
-          <button type="button" class="btn btn-outline-light btn-lg">
+          <button
+            type="button"
+            class="download-btn d-block btn btn-outline-light btn-lg mt-3"
+          >
             <i class="fi-xnluxl-playstore"></i> Download
           </button>
         </div>
         <div class="col">
-          <img
-            class="title-img position-absolute mx-auto d-block"
-            src="images/iphone6.png"
-            alt="iphone-mockup"
-          />
+          <img id="title-img" src="images/iphone6.png" alt="iphone-mockup" />
         </div>
       </div>
     </section>
@@ -111,7 +115,10 @@
 
     <!-- Testimonials -->
 
-    <section class="container-fluid text-center" id="testimonials-sec">
+    <section
+      class="container-fluid text-center position-relative"
+      id="testimonials-sec"
+    >
       <div id="testimonials" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
           <button
